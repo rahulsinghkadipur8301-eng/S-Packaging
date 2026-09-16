@@ -1,0 +1,6 @@
+{
+  "name": "S Packaging",
+  "description": "S Packaging is a packaging box manufacturer in Vasai, Palghar, Maharashtra offering corrugated boxes, printed packaging boxes, gift boxes, food packaging and customized packaging solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

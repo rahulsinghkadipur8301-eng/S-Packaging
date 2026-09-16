@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SP-909004",
+    "createdAt": "2026-09-16T09:11:49.004Z",
+    "inquiryDate": "16 Sept 2026",
+    "inquiryTime": "02:41:49 pm",
+    "fullName": "Vikram Patel",
+    "companyName": "Maharashtra Agro Exports",
+    "mobileNumber": "09876543210",
+    "emailAddress": "vikram@agroexports.in",
+    "product": "Mango Packing Box",
+    "requiredQuantity": "2500 boxes",
+    "requiredBoxSize": "16x12x6 inches",
+    "customizationRequirements": "Ventilation holes with 3-ply kraft finish",
+    "message": "Need first delivery batch before seasonal harvest.",
+    "status": "new",
+    "emailDelivery": {
+      "dispatched": true,
+      "recipient": "rahulsinghkadipur8301@gmail.com",
+      "subject": "New Product Inquiry – Mango Packing Box – S Packaging",
+      "method": "simulated_dispatch",
+      "sentAt": "2026-09-16T09:11:49.004Z"
+    },
+    "rawEmailPreview": "New Product Inquiry\n\nCustomer Name: Vikram Patel\nCompany: Maharashtra Agro Exports\nMobile: 09876543210\nEmail: vikram@agroexports.in\n\nProduct: Mango Packing Box\nRequired Quantity: 2500 boxes\nBox Size: 16x12x6 inches\n\nCustomization Requirements:\nVentilation holes with 3-ply kraft finish\n\nMessage:\nNeed first delivery batch before seasonal harvest.\n\nInquiry Date: 16 Sept 2026\nInquiry Time: 02:41:49 pm (IST)\nInquiry Reference: SP-909004"
+  },
+  {
+    "id": "SP-109281",
+    "createdAt": "2026-09-15T11:20:00.000Z",
+    "inquiryDate": "15 Sep 2026",
+    "inquiryTime": "04:50:00 PM",
+    "fullName": "Rajesh Sharma",
+    "companyName": "Apex Logistics Pvt Ltd",
+    "mobileNumber": "09820123456",
+    "emailAddress": "rajesh@apexlogistics.in",
+    "product": "3 Ply Corrugated Box",
+    "requiredQuantity": "5,000 units / month",
+    "requiredBoxSize": "14 x 10 x 8 inches",
+    "customizationRequirements": "Single color branding print with standard top taping flaps.",
+    "message": "We require regular monthly dispatch batches for our Bhiwandi distribution hub.",
+    "status": "reviewed",
+    "emailDelivery": {
+      "dispatched": true,
+      "recipient": "rahulsinghkadipur8301@gmail.com",
+      "subject": "New Product Inquiry – 3 Ply Corrugated Box – S Packaging",
+      "method": "simulated_dispatch",
+      "sentAt": "2026-09-15T11:20:05.000Z"
+    },
+    "rawEmailPreview": "New Product Inquiry\n\nCustomer Name: Rajesh Sharma\nCompany: Apex Logistics Pvt Ltd\nMobile: 09820123456\nEmail: rajesh@apexlogistics.in\n\nProduct: 3 Ply Corrugated Box\nRequired Quantity: 5,000 units / month\nBox Size: 14 x 10 x 8 inches\n\nCustomization Requirements:\nSingle color branding print with standard top taping flaps.\n\nMessage:\nWe require regular monthly dispatch batches for our Bhiwandi distribution hub.\n\nInquiry Date: 15 Sep 2026\nInquiry Time: 04:50:00 PM (IST)\nInquiry Reference: SP-109281"
+  }
+]
