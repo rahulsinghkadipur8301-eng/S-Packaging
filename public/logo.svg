@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="logoBoxTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="logoBoxLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B45309" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+    <linearGradient id="logoBoxRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#92400E" />
+    </linearGradient>
+    <linearGradient id="logoSGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark Container -->
+  <g transform="translate(10, 8)">
+    <rect width="64" height="64" rx="14" fill="#0F172A" />
+    <rect width="62" height="62" x="1" y="1" rx="13" fill="none" stroke="#334155" stroke-width="1.5" />
+    
+    <!-- Isometric 3D Box -->
+    <g transform="translate(0, 1)">
+      <!-- Top Face -->
+      <polygon points="32,12 50,22 32,32 14,22" fill="url(#logoBoxTop)" />
+      <!-- Left Face -->
+      <polygon points="14,22 32,32 32,52 14,42" fill="url(#logoBoxLeft)" />
+      <!-- Right Face -->
+      <polygon points="32,32 50,22 50,42 32,52" fill="url(#logoBoxRight)" />
+
+      <!-- Center Flap Seam -->
+      <line x1="32" y1="12" x2="32" y2="32" stroke="#B45309" stroke-width="1" stroke-dasharray="2,1" />
+
+      <!-- Stylized S Monogram -->
+      <path d="M 38,21 C 36,18.5 33.5,18 30.5,19 C 27,20.5 25.5,23.5 28,26.5 C 29.5,28.5 34,30.5 34.5,33 C 35,36 32,38.5 28.5,39 C 25,39.5 22,38 21,35.5" 
+            fill="none" 
+            stroke="url(#logoSGrad)" 
+            stroke-width="4.5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(86, 20)">
+    <!-- Primary Brand Name -->
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="24" fill="#0F172A" letter-spacing="0.5">
+      S PACKAGING
+    </text>
+    <!-- Subtitle / Tagline -->
+    <text x="1" y="42" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="9.5" fill="#B45309" letter-spacing="1.5">
+      BOX MANUFACTURER • VASAI
+    </text>
+  </g>
+</svg>

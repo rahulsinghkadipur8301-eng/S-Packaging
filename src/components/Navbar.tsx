@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Menu, X, Package, ArrowRight, ShieldCheck, Inbox } from 'lucide-react';
 import { COMPANY_INFO } from '../data/company';
+import { BrandLogo } from './BrandLogo';
 
 interface NavbarProps {
   currentView: string;
@@ -85,19 +86,9 @@ export const Navbar: React.FC<NavbarProps> = ({
         <button
           id="nav-logo-btn"
           onClick={() => handleNavClick('home')}
-          className="flex items-center gap-3 text-left focus:outline-none group"
+          className="flex items-center text-left focus:outline-none group cursor-pointer"
         >
-          <div className="w-10 h-10 rounded-lg bg-amber-600 text-white flex items-center justify-center shadow-xs font-bold tracking-wider text-lg group-hover:bg-amber-700 transition-colors">
-            S
-          </div>
-          <div>
-            <div className="text-xl font-bold tracking-tight text-slate-900 leading-tight">
-              S PACKAGING
-            </div>
-            <div className="text-[11px] font-medium tracking-wide text-slate-500 uppercase">
-              Packaging Box Manufacturer • Vasai
-            </div>
-          </div>
+          <BrandLogo variant="dark" size="md" />
         </button>
 
         {/* Desktop Navigation */}

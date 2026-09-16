@@ -3,6 +3,7 @@ import { X, Send, CheckCircle2, AlertCircle, Phone, Mail, Building, FileText, Lo
 import { PRODUCTS } from '../data/products';
 import { COMPANY_INFO } from '../data/company';
 import { InquiryFormData } from '../types';
+import { BrandLogo } from './BrandLogo';
 
 interface InquiryModalProps {
   isOpen: boolean;
@@ -140,11 +141,9 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
       >
         {/* Header */}
         <div className="bg-slate-900 text-white px-6 py-4 flex items-center justify-between border-b border-slate-800">
-          <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-md bg-amber-600 flex items-center justify-center font-bold text-sm">
-              SP
-            </div>
-            <div>
+          <div className="flex items-center gap-3">
+            <BrandLogo variant="light" size="sm" showSubtitle={false} />
+            <div className="border-l border-slate-700 pl-3">
               <h2 className="text-base sm:text-lg font-bold">Request a Quote / Send Inquiry</h2>
               <p className="text-xs text-slate-300">S Packaging • Vasai, Palghar, Maharashtra</p>
             </div>

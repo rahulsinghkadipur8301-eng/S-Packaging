@@ -1,6 +1,7 @@
 import React from 'react';
 import { COMPANY_INFO } from '../data/company';
 import { Phone, MapPin, ShieldCheck, Mail, ArrowUpRight, Inbox } from 'lucide-react';
+import { BrandLogo } from './BrandLogo';
 
 interface FooterProps {
   onNavigate: (view: string) => void;
@@ -22,15 +23,7 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-4 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-lg bg-amber-600 text-white flex items-center justify-center font-bold text-base shadow-xs">
-                S
-              </div>
-              <div>
-                <span className="text-lg font-bold text-white tracking-tight">S PACKAGING</span>
-                <p className="text-[11px] text-slate-400">Packaging Boxes Manufacturer</p>
-              </div>
-            </div>
+            <BrandLogo variant="light" size="md" />
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
               S Packaging manufactures durable and practical packaging boxes for businesses across multiple applications, with options for standard and customized requirements in Vasai, Palghar, Maharashtra.

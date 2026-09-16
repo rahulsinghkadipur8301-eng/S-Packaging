@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="boxTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="boxLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B45309" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+    <linearGradient id="boxRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#92400E" />
+    </linearGradient>
+    <linearGradient id="sRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle for favicon legibility -->
+  <rect width="64" height="64" rx="14" fill="#0F172A" />
+  
+  <!-- Outer subtle border -->
+  <rect width="62" height="62" x="1" y="1" rx="13" fill="none" stroke="#334155" stroke-width="1.5" />
+
+  <g transform="translate(0, 1)">
+    <!-- 3D Isometric Corrugated Box -->
+    <!-- Top Face -->
+    <polygon points="32,10 52,21 32,32 12,21" fill="url(#boxTop)" />
+    <!-- Left Face -->
+    <polygon points="12,21 32,32 32,54 12,43" fill="url(#boxLeft)" />
+    <!-- Right Face -->
+    <polygon points="32,32 52,21 52,43 32,54" fill="url(#boxRight)" />
+
+    <!-- Center Flap Seam -->
+    <line x1="32" y1="10" x2="32" y2="32" stroke="#B45309" stroke-width="1" stroke-dasharray="2,1" />
+
+    <!-- Stylized 'S' Packaging Monogram in Kraft White -->
+    <path d="M 39,21 C 37,18 34,17.5 31,18.5 C 27,20 25.5,23.5 28,26.5 C 29.5,28.5 34,30.5 34.5,33 C 35,36 32,38.5 28.5,39 C 25,39.5 22,38 21,35.5" 
+          fill="none" 
+          stroke="url(#sRibbon)" 
+          stroke-width="4.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          filter="url(#dropShadow)" />
+          
+    <!-- Small box tape seal accent -->
+    <polygon points="29,18 35,21.5 35,24 29,20.5" fill="#F59E0B" opacity="0.8" />
+  </g>
+</svg>
